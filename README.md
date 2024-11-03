@@ -47,7 +47,7 @@ $ npm install thirteen
 var thirteen = require('thirteen');
 
 var thirteenTwice = thirteen(2);
-console.log(thirteenTwice) // logs 26, which is thirteen, twice
+console.log(thirteenTwice) // logs "26!!!", which is thirteen, twice, with an added three exclamation points 
 ```
 
 ## Tests
