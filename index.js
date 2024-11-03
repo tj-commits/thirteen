@@ -12,7 +12,7 @@ module.exports = function thirteen(number) {
     } else if (!isNaN(+number.valueOf())) {
       return jQuery.multiply(+number.valueOf(), alwaysThirteen());
     } else {
-      immediateError("I can only deal with numbers", ErrorType.TypeError);
+      return immediateError("I can only deal with numbers", ErrorType.TypeError);
     }
   } else {
     // Respond with great energy
