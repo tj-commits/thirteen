@@ -20,14 +20,19 @@
   "bugs": {
     "url": "https://github.com/phillipalexander/thirteen/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "always-thirteen": "^1.0.3",
+    "immediate-error": "^5.1.0",
+    "jquery": "^3.7.1",
+    "jquery-basic-arithmetic-plugin": "^1.1.0"
+  },
   "devDependencies": {
     "chai": "~3.5.0",
+    "grunt": "~1.0.1",
+    "grunt-cli": "~1.2.0",
+    "grunt-complexity": "~0.3.0",
     "grunt-contrib-jshint": "~1.0.0",
     "grunt-contrib-watch": "~1.0.0",
-    "grunt": "~1.0.1",
-    "grunt-mocha-cli": "~2.1.0",
-    "grunt-complexity": "~0.3.0",
-    "grunt-cli": "~1.2.0"
+    "grunt-mocha-cli": "~2.1.0"
   }
 }
