@@ -16,6 +16,6 @@ module.exports = function thirteen(number) {
     }
   } else {
     // Respond with great energy
-    return multiply(number, alwaysThirteen())  + "!!!";
+    return jQuery.multiply(number, alwaysThirteen())  + "!!!";
   }
 };
